@@ -9,7 +9,7 @@ body {
     display: flex;
 }
 
-/* Left Side of Navbar */
+/* ------- Left Side of Navbar ---------*/
 
 .Navbar .leftSide {
     flex: 50%;
@@ -24,7 +24,7 @@ body {
 }
 
 
-/* Right Side of Navbar*/
+/* -------- Right Side of Navbar ---------*/
 
 .Navbar .rightSide {
     flex: 50%;
@@ -89,3 +89,5 @@ body {
         font-size: 25px;
     }
 }
+
+/* -------- End of Media Queries ---------- */

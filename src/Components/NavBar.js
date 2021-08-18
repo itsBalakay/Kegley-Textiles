@@ -19,13 +19,21 @@ function NavBar(props) {
       </div>
       <div className="rightSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <Link to="/" className="link-nav">
+          <Link to="/" className="link-nav" onClick={() => setShowLinks(false)}>
             Home
           </Link>
-          <Link to="/AboutUs" className="link-nav">
+          <Link
+            to="/AboutUs"
+            className="link-nav"
+            onClick={() => setShowLinks(false)}
+          >
             About
           </Link>
-          <Link to="/ContactUs" className="link-nav">
+          <Link
+            to="/ContactUs"
+            className="link-nav"
+            onClick={() => setShowLinks(false)}
+          >
             Contact Us
           </Link>
         </div>
