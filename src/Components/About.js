@@ -1,10 +1,13 @@
 import React from "react";
 
-function About(props) {
-  console.log(props);
+function About({ data }) {
+  console.log(data);
+  if (data) {
+    var name = data.name;
+  }
   return (
     <div>
-      <h1>This is about page</h1>
+      <h1>{name}</h1>
     </div>
   );
 }

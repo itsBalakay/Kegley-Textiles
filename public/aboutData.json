@@ -1,5 +1,6 @@
 {
     "main": {
+        "company":"MDX Textiles",
         "name": "Doug Kegley",
         "occupation":"Founder",
         "description":"",
@@ -12,10 +13,19 @@
             "state": "n/a",
             "zip": "n/a"
         },
+        "testimonials": [
+            {
+                "text":"",
+                "user":""
+            }
+        ],
         "social": [{
             "name": "linkedin",
             "url": "http://www.linkedin.com",
             "className": "fa fa-linkedin"
         }]
+    },
+    "company":{
+        "mission":""
     }
 }

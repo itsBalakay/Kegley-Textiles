@@ -30,7 +30,7 @@ function App() {
           <Route
             exact
             path="/"
-            render={(props) => <Home props={aboutData} />}
+            render={(props) => <Home data={aboutData.main} />}
           />
 
           <Route
