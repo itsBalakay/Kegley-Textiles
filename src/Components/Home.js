@@ -10,16 +10,15 @@ function Home({ data }) {
   }
   return (
     <div className="home-container">
-      <div className="home-banner-div">
+      {/* <div className="home-banner-div">
         <img
           src={"./images/textile-home-pic.jpeg"}
           alt="home-banner"
           className="home-banner-img"
         />
-      </div>
-      <div>
-        <h1>{name}</h1>
-        <h2>
+      </div> */}
+      <div className="banner-text">
+        <h2 className="responsive-headline">
           Welcome to{" "}
           <Typewriter
             onInit={(typewriter) => {
