@@ -1,3 +1,13 @@
+.footer-container {
+    background-color: #cc5200;
+}
+
 .main-container {
-    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-row ul {
+    
 }
