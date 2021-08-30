@@ -46,8 +46,7 @@ function App() {
           />
         </Switch>
       </div>
-
-      <Footer />
+      <Footer data={aboutData.main} />
     </div>
   );
 }

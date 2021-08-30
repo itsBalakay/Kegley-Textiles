@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 .Navbar {
-    background-color: #021E39;
+    background-color: #cc5200;
     width: 100%; 
     height: 80px;
     display: flex;
@@ -20,7 +20,7 @@ body {
 }
 
 .Navbar h2 {
-    color: white;
+    color: darkgrey;
 }
 
 
@@ -39,7 +39,7 @@ body {
 
 .Navbar .rightSide .links .link-nav {
     text-decoration: none;
-    color: white;
+    color: darkgrey;
     font-size: 25px;
     margin-right: 15px;
 }

@@ -7,12 +7,12 @@
         "email": "fabtxt.tn@gmail.com",
         "phone": "305-343-5273",
         "contactmesssage":"Have a question about a product? I'd love to hear from you!",
-        "address": {
+        "address": [{
             "street":"n/a",
             "city": "n/a",
             "state": "n/a",
             "zip": "n/a"
-        },
+        }],
         "testimonials": [
             {
                 "text":"",

@@ -4,7 +4,7 @@
 
 .home-container {
     position: relative;
-    height: 800px;
+    height: 100vh;
     min-height: 500px;
     width: 100%;
     background: #161415 url(./textile-home-pic.jpeg) no-repeat top center;
@@ -18,8 +18,4 @@
 .banner-text {
     display: flex;
     justify-content: center;
-}
-
-.banner-text h2 {
-    align-items: center;
 }
